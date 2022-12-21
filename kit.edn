@@ -1,0 +1,8 @@
+{:full-name "troglotit/topicsearch"
+ :ns-name   "troglotit.topicsearch"
+ :sanitized "troglotit/topicsearch"
+ :name      "topicsearch"
+ :modules   {:root         "modules"
+             :repositories [{:url  "https://github.com/kit-clj/modules.git"
+                             :tag  "master"
+                             :name "kit-modules"}]}}
