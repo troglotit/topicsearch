@@ -1,6 +1,7 @@
 (ns troglotit.topicsearch.web.routes.api
   (:require
     [troglotit.topicsearch.web.controllers.health :as health]
+    [troglotit.topicsearch.web.controllers.search :as search]
     [troglotit.topicsearch.web.middleware.exception :as exception]
     [troglotit.topicsearch.web.middleware.formats :as formats]
     [integrant.core :as ig]
@@ -16,6 +17,8 @@
     {:get {:no-doc  true
            :swagger {:info {:title "troglotit.topicsearch API"}}
            :handler (swagger/create-swagger-handler)}}]
+   ["/search"
+    {:get search/search}]
    ["/health"
     {:get health/healthcheck!}]])
 

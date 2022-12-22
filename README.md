@@ -1,3 +1,9 @@
+# Ридми
+
+- Проект сгенерирован https://kit-clj.github.io/
+- Для разворачивание нужен `clojure`
+- Для CIDER: `clj -M:dev:cider`
+
 # topicsearch
 
 Start a [REPL](#repls) in your editor or terminal of choice.

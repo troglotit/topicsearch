@@ -23,7 +23,10 @@
            io.github.kit-clj/kit-core {:mvn/version "1.0.3"}
            io.github.kit-clj/kit-undertow {:mvn/version "1.0.4"}
            io.github.kit-clj/kit-hato {:mvn/version "1.0.1"}
-           }
+
+           cheshire {:mvn/version "5.11.0"}}
+           
+           
  :aliases {:build {:deps {io.github.clojure/tools.build {:git/sha "e3e3532"
                                                          :git/tag "v0.8.0" :git/url "https://github.com/clojure/tools.build.git"}}
                    :ns-default build}
@@ -37,8 +40,8 @@
                                 ring/ring-devel                 {:mvn/version "1.9.5"}
                                 ring/ring-mock                  {:mvn/version "0.4.0"}
                                 io.github.kit-clj/kit-generator {:mvn/version "0.1.7"}
-                                org.clojure/tools.namespace     {:mvn/version "1.2.0"}
-                                }
+                                org.clojure/tools.namespace     {:mvn/version "1.2.0"}}
+                                
                   :extra-paths ["env/dev/clj" "env/dev/resources" "test/clj"]}
            :nrepl {:extra-deps {nrepl/nrepl {:mvn/version "0.9.0"}}
                    :main-opts  ["-m" "nrepl.cmdline" "-i"]}
@@ -60,5 +63,5 @@
                   :exec-fn      cognitect.test-runner.api/test
                   :extra-paths ["env/dev/clj" "env/dev/resources" "env/test/resources" "test/clj"]
                   :main-opts   ["-e" "(require 'pjstadig.humane-test-output) (pjstadig.humane-test-output/activate!)"
-                                "-m" "cognitect.test-runner"]}}
- }
+                                "-m" "cognitect.test-runner"]}}}
+ 
