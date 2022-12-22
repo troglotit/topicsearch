@@ -1,8 +1,8 @@
 # Ридми
 
 - Проект сгенерирован https://kit-clj.github.io/
-- Для разворачивание нужен `clojure`
-- Для CIDER: `clj -M:dev:cider`
+- Для разворачивания нужен `clojure`
+- Запуск CIDER: `clj -M:dev:cider`
 
 # topicsearch
 
