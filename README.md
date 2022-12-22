@@ -1,9 +1,9 @@
 # Ридми
 
 - Проект сгенерирован https://kit-clj.github.io/
-- Для разворачивания нужен `clojure`
+- Для разворачивания нужен `clojure` https://clojure.org/guides/install_clojure
 - Запуск CIDER: `clj -M:dev:cider`
-
+- Проект развернут в Railway https://topicsearch-production.up.railway.app/api/search?tag=scala&tag=clojure&tag=clojurescript
 # topicsearch
 
 Start a [REPL](#repls) in your editor or terminal of choice.
